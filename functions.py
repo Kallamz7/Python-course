@@ -4,12 +4,12 @@
 # def wise(weight, height):
 #     character = (height ** 2)/weight
 #     return character
-#     print(character)
 
 
 # w = int(input("What is your Weight: "))
 # h = int(input("What is your Height: "))
 # my_character = wise(w, h)
+# print(character)
 
 
 ''' Functions with keyword arguments '''
