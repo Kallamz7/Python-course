@@ -14,13 +14,22 @@
 
 ''' Functions with keyword arguments '''
 
+#
+# def bmi(weight=80, height=6):
+#     return(height ** 2)/weight
+#
+#
+# var1 = bmi()
+# print(var1)
 
-def bmi(weight=80, height=6):
-    return(height ** 2)/weight
+
+''' Functions with variable length positional arguments '''
 
 
-var1 = bmi()
-print(var1)
+def result(grades, name, *args):
+    print(grades, name)
 
 
-''' Functions with variable arguments '''
+result("wonder", 'me', 3, 4)
+
+''' Functions with variable length keyword arguments'''
