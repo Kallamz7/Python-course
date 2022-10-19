@@ -26,10 +26,23 @@
 ''' Functions with variable length positional arguments '''
 
 
-def result(grades, name, *args):
-    print(grades, name)
-
-
-result("wonder", 'me', 3, 4)
+# def result(grades, name, *args):
+#     print(grades, name)
+#
+#
+# result("wonder", 'me', 3, 4)
 
 ''' Functions with variable length keyword arguments'''
+
+
+# def myFunc(**kwargs):
+#     print(kwargs)
+#     print(kwargs['name'])
+#
+#
+# myFunc(age=5, sex="Male", level="uni", name="Peter")
+
+func = lambda x: x ** 2
+
+print(func(5))
+
